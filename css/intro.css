@@ -1,12 +1,10 @@
 .intro {
     display: flex;
     align-items: center;
-    /* gap: 7.5rem; */
     border-radius: 3.125rem;
-    background-image: url("./images/inner background.svg");
+    background-image: url("../images/inner background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    /* Позиціонуємо фон посередині горизонтально та вертикально */
     background-size: cover;
     margin: 99.18px;
 }
@@ -16,34 +14,24 @@
 }
 
 .intro__title {
-    /* display: flex; */
     width: 475px;
     height: 100px;
-    /* flex-direction: column; */
-    /* flex-shrink: 0; */
     color: #212353;
-
-    /* SubHeadline */
     font-family: "Helvetica-Bold";
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: 130%;
-    /* 52px */
     margin-left: 5rem;
 }
 
 .intro__pharagraph {
     width: 474px;
     height: 170px;
-    flex-shrink: 0;
-    color: var(--1, #4B5D68);
+    color: #4B5D68;
     font-family: "Avenir Regural";
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: 160%;
-    /* 28.8px */
     margin-left: 5rem;
 }
 

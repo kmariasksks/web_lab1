@@ -97,4 +97,7 @@
 .footer__chat-icon {
     margin-top: 13rem;
     background: transparent;
+    position: fixed;
+    bottom: 3%;
+    right: 13%;
 }

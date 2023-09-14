@@ -12,8 +12,8 @@
     color: #212353;
     font-size: 1rem;
     font-weight: 800;
-    margin-right: 2.5rem;
-    margin-left: 7.5625rem;
+    margin-right: 2.5em;
+    margin-left: 7.5625em;
 }
 
 .header__nav-item2 {
@@ -21,7 +21,7 @@
     color: #4B5D68;
     font-size: 1rem;
     font-weight: 500;
-    margin-right: 2.5rem;
+    margin-right: 2.5em;
 }
 
 .header__request-demo {
@@ -39,3 +39,15 @@
 .arrow {
     margin-left: 1rem;
 }
+
+/* @media screen and (max-width: 768px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #FFF ;
+        width: 700px;
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+    }
+} */

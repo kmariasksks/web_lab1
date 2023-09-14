@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url("../fonts/Helvetica-Bold.woff") format("woff2"),
+        url("../fonts/Helvetica-Bold.woff2") format("woff");
+}
+
+@font-face {
+    font-family: "Avenir Regural";
+    src: url("../fonts/Avenir Regular.woff2") format("woff2"),
+        url("../fonts/Avenir Regular.woff") format("woff");
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    display: block;
+}
+
+/* Global classes */
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+.container {    
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 1268px;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    :root {
+        font-size: 12px;
+    }
+} */
