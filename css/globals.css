@@ -10,16 +10,21 @@
         url("../fonts/Avenir Regular.woff") format("woff");
 }
 
-a {
+ a {
     text-decoration: none;
     color: unset;
 }
 
 li {
     display: block;
-}
+} 
 
 /* Global classes */
+
+* {
+    margin: 0;
+    border: none;
+}
 
 button {
     border: 0;
@@ -28,24 +33,5 @@ button {
 
 .container {    
     margin: 0 auto;
-    margin-top: 30px;
     max-width: 1268px;
 }
-
-/* @media screen and (max-width: 1024px) {
-    .container {
-        padding: 0 40px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    :root {
-        font-size: 12px;
-    }
-} */
