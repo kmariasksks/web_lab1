@@ -11,3 +11,15 @@
 @import "./features.css";
 
 @import "./footer.css";
+
+@import "../adaptive/hero_320px.css";
+
+@import "../adaptive/intro_320px.css";
+
+@import "../adaptive/features_320px.css";
+
+@import "../adaptive/footer_320px.css";
+
+@import "../adaptive/header_320px.css";
+
+@import "../js/main.js";
