@@ -6,6 +6,10 @@
         display: flex;
         justify-content: inherit;
     }
+    
+    .footer__rectangle {
+
+    }
 
     .footer__content-title {
         width: 280px;
@@ -14,12 +18,13 @@
         line-height: 130%;
         margin-bottom: 10px;
         text-align: center;
+        margin-bottom: 15px;
     }
 
     .footer__content-pharagraph {
         margin: 0;
         width: 280px;
-        font-size: 15px;
+        font-size: 17px;
         line-height: 160%;
         margin-bottom: 30px;
         margin-top: -10px;
@@ -30,7 +35,7 @@
     .footer__content-copyrights {
         width: 280px;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 180%;
         letter-spacing: 0.01rem;
         margin-top: 150px;
@@ -41,7 +46,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* order: 1; */
         margin-left: -290px;
     }
 
@@ -64,7 +68,6 @@
         white-space: nowrap;
         justify-content: center;
         margin-left: 15px;
-        /* Додаємо цей рядок */
     }
 
     .footer__buttons-request-demo-text {

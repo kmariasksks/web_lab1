@@ -38,14 +38,27 @@
         margin-top: 50px;
     }
 
-    .features__content-feature.first,
-    .features__content-feature.second,
-    .features__content-feature.third,
-    .features__content-feature.fourth {
-        background-size: contain;
+    .features__content-feature.first {
+        background-image: none;
+        background-color:#d4e8e5;
+        border-radius: 30px;
+    }
+
+    .features__content-feature.second {
+        background-image: none;
+        background-color: #e8c9db;
+        border-radius: 30px;
+    }
+    .features__content-feature.third {
+        background-image: none;
+        background-color: #d1c1e6;
+        border-radius: 30px;
     }
 
     .features__content-feature.fourth {
+        background-image: none;
+        background-color: #bddbeb;
+        border-radius: 30px;
         margin-bottom: 50px;
     }
 
@@ -58,14 +71,13 @@
     }
 
     .features__content-feature-title {
-        font-size: 18px;
-        line-height: 150%;
+        font-size: 14px;
         margin-left: 30px;
         margin-top: 3px;
     }
 
     .features__content-feature-description {
-        font-size: 12px;
+        font-size: 14px;
         max-width: 180px;
         line-height: 160%;
         margin-left: 20px;
@@ -74,6 +86,7 @@
     .features__content-feature-learn-more-text {
         font-size: 14px;
         margin-left: 80px;
+        margin-top: -10px;
     }
 
     .features__content-feature-learn-more-text4 {
@@ -83,16 +96,17 @@
         letter-spacing: 0.005rem;
         color: #212353;
         font-size: 14px;
-        margin-left: 80px;
-        margin-top: -15px;
+        margin-left: 100px;
+        margin-top: -30px;
     }
 
     .features__content-feature-learn-more-arrow {
-        margin-top: 3px;
+        margin-top: -9px;
     }
 
     .features__content-feature-learn-more-arrow4 {
-        margin-top: -12px;
+        margin-top: -30px;
+        margin-right: 10px;
     }
 
     .features__content-feature-learn-more-text3 {
@@ -103,10 +117,11 @@
         color: #212353;
         font-size: 14px;
         margin-left: 80px;
+        margin-top: 15px;
     }
 
     .features__content-feature-learn-more-arrow3 {
-        margin-top: 4px;
+        margin-top: 14px;
     }
 
     .features__content-feature-learn-more-text2 {
@@ -117,11 +132,11 @@
         color: #212353;
         font-size: 14px;
         margin-left: 80px;
-        margin-top: 20px; 
+        margin-top: 36px; 
     }
 
     .features__content-feature-learn-more-arrow2 {
-        margin-top: 24px;
+        margin-top: 38px;
     }
 }
 
