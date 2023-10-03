@@ -1,11 +1,20 @@
 .header {
     display: flex;
     justify-content: space-between;
+    margin-right: 600px;
 }
 
 .header__nav ul {
     display: flex;
 }
+
+input {
+    display: none;
+}
+
+ .menu {
+    margin-right: 590px;
+} 
 
 .header__nav-item1 {
     font-family: "Avenir Regural";

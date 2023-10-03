@@ -11,6 +11,8 @@
     align-items: center;
     gap: 3.125rem;
     margin-left: 14rem;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
 .features__title {
@@ -20,7 +22,28 @@
     line-height: 130%;
     color: #212353;
     margin-bottom: -30px;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  }
 
 .features__description {
     font-family: "Avenir Regural";
@@ -112,6 +135,45 @@
     color: #212353;
 }
 
+.features__content-feature-learn-more-text2 {
+    font-family: "Avenir Regural";
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 160%;
+    letter-spacing: 0.005rem;
+    color: #212353;
+}
+
+.features__content-feature-learn-more-text3 {
+    font-family: "Avenir Regural";
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 160%;
+    letter-spacing: 0.005rem;
+    color: #212353;
+}
+
+.features__content-feature-learn-more-text4 {
+    font-family: "Avenir Regural";
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 160%;
+    letter-spacing: 0.005rem;
+    color: #212353;
+}
+
 .features__content-feature-learn-more-arrow {
+    margin-top: 0.3rem;
+}
+
+.features__content-feature-learn-more-arrow2 {
+    margin-top: 0.3rem;
+}
+
+.features__content-feature-learn-more-arrow3 {
+    margin-top: 0.3rem;
+}
+
+.features__content-feature-learn-more-arrow4 {
     margin-top: 0.3rem;
 }

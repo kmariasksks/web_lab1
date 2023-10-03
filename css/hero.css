@@ -1,7 +1,7 @@
 .hero {
     background-image: url("../images/Save your storage.svg");
     background-repeat: no-repeat;
-    background-position: bottom right 60px;
+    background-position: bottom right 58px;
 }
 
 
@@ -17,7 +17,20 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 120px;
+
 }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 .hero__pharagraph {
     color: #4B5D68;
@@ -33,7 +46,7 @@
     width: 170px;
     height: 60px;
     border-radius: 50px;
-    background:  #9C69E2;
+    background: #9C69E2;
     color: #FFF;
     text-align: center;
     font-family: "Avenir Regural";
@@ -42,4 +55,6 @@
     line-height: 160%;
     padding: 16px 0;
     margin-top: 50px;
+    animation-duration: 1s;
+    animation-name: slidein;
 }
